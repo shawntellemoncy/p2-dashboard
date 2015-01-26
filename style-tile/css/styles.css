@@ -1,0 +1,106 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+html {
+	background: url(http://www.ilikewallpaper.net/iphone-5-wallpapers/download/8410/Tetris-iphone-5-wallpaper-ilikewallpaper_com.jpg);
+}
+
+/* Body Texts */
+
+
+body {
+	line-height: 1.7em;
+}
+
+h1 {
+	color: #33D0D8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h3, h4 {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+.container {
+	background: #3CB371;
+	padding-top: 2em; 
+	border-radius: 7%;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 30px 20px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 75px;
+	width: 75px;
+}
+
+/* Style Tile for Ashley Teel */
+
+.color-1 {
+	background: #33D0D8;
+}
+
+.color-2 {
+	background: #993399;
+}
+
+.color-3 {
+	background: orange;
+}
+
+.pattern-1 {
+	background-color: #00b9d1;
+	background-image: url(http://www.transparenttextures.com/patterns/3px-tile.png);
+}
+
+.pattern-2 {
+	background-color: #db2c2c;
+	background-image: url(http://www.transparenttextures.com/patterns/concrete-wall.png);
+}
+
+.pattern-3 {
+	background-color: #e08e00;
+	background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+
+/* Anchor Links */
+
+a {
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+}
+
+a:hover {
+	color: #33D0D8;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
